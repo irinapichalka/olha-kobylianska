@@ -4,7 +4,11 @@ if (document.querySelectorAll(".glide").length) {
     // type: "slider",
     // rewind: false,
     focusAt: "center",
-    perView: 3,
+    perView: 2,
+    peek: {
+      before: 150,
+      after: 150,
+    },
   });
 
   featuresSlider.mount();
