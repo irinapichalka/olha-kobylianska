@@ -30,7 +30,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  line-height: 40px;
+  justify-content: center;
   color: #fff;
   background: rgb(136, 133, 133);
   font-size: 1em;
@@ -57,5 +57,9 @@ h1 {
   background: linear-gradient(-45deg, #ed145b, #7b31f4);
 }
 .image_details {
+  padding: 10px 0;
   max-width: 80%;
+  white-space: wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
